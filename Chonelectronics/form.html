@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Fill your contact information</h1>
+    <h3>Personal information</h3>
+    <form>
+        <fieldset>
+            <label for="first name">First Name</label><br>
+            <input type="text" name="first name" value="" size="40" placeholder="John"/><br>
+            <br>
+            <label for="last name">Last Name</label><br>
+            <input type="text" name="last name" value="" size="40" placeholder="Smith"/><br>
+            <br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" value="" size="40" placeholder="example@email.com"/><br>
+            <br>
+            <label for="phone munber">Phone Number</label><br>
+            <input type="text" name="phone number" value="" size="40" placeholder="1234567890"/><br>
+            <br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" value="F" checked="checked"/>F
+            <input type="radio" name="gender" value="M"/>M
+        </fieldset>
+        <h3>Shipping information</h3>
+        <fieldset>
+            <label for="address line 1">Address Line 1</label><br>
+            <input type="text" name="address line 1" value="" size="40" placeholder="623 Elm Street"/><br>
+            <br>
+            <label for="address line 2">Address Line 2</label><br>
+            <input type="text" name="address line 2" value="" size="40" placeholder="Apartment 2"/><br>
+            <br>
+            <label for="city">City</label><br>
+            <input type="text" name="city" value="" size="40" placeholder="Boston"/><br>
+            <br>
+            <label for="state">State</label><br>
+            <input type="text" name="state" value="" size="40" placeholder="MA"/><br>
+            <br>
+            <label for="country">Country</label><br>
+            <select name="country">
+                <option value="country">Select your country</option>
+            </select>                   
+        </fieldset>
+        <br>
+        <label for="checkbox">I agree with</label><br>
+        <input type="checkbox" name="privacy policy"/><a href="">Privacy Policy</a><br>
+        <input type="checkbox" name="terms and conditions"/><a href="">Term and Conditions</a>
+        <br><br>
+        <button>Submit</button>
+
+
+    </form>
+    
+</body>
+</html>
