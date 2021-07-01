@@ -6,7 +6,6 @@
 
 body{
     width: 100%;
-    margin: auto;
 }
 
 .bg-image{
@@ -17,12 +16,7 @@ body{
     width: 100%;
 }
 .title{
-    font-size: 56px;
-} 
-
-.showcase img{
-    height: auto;
-    width: 100%;
+    font-size: 3rem;
 }
 
 .sv{
@@ -45,4 +39,18 @@ body{
 .icons{
     font-size: 2rem; 
     color:#0d6efd;
+}
+
+/* media queries*/
+
+@media(min-width: 576px) {
+    .intro-input{
+        width: 50%;
+    }  
+}
+
+@media(min-width: 576px){
+    .news-input{
+        width: 60%;
+    }
 }
